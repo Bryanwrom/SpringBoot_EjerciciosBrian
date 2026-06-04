@@ -11,11 +11,12 @@ public class EstudianteDTO {
     public EstudianteDTO() {
     }
 
-    public EstudianteDTO(Integer numeroControl,
-                         String nombre,
-                         String email,
-                         DireccionDTO direccion,
-                         String telefono) {
+    public EstudianteDTO(
+            Integer numeroControl,
+            String nombre,
+            String email,
+            DireccionDTO direccion,
+            String telefono) {
 
         this.numeroControl = numeroControl;
         this.nombre = nombre;

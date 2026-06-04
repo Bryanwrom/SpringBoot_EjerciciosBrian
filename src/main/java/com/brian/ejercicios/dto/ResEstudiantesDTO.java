@@ -11,9 +11,10 @@ public class ResEstudiantesDTO {
     public ResEstudiantesDTO() {
     }
 
-    public ResEstudiantesDTO(Integer codigoEstatus,
-                             String mensaje,
-                             List<EstudianteDTO> estudiantes) {
+    public ResEstudiantesDTO(
+            Integer codigoEstatus,
+            String mensaje,
+            List<EstudianteDTO> estudiantes) {
 
         this.codigoEstatus = codigoEstatus;
         this.mensaje = mensaje;
